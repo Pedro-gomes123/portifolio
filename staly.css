@@ -1,0 +1,222 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: #fff;
+    background-color: #000;
+    
+    
+  
+}
+
+main{
+    position: absolute;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    position: fixed;
+    right: 40px;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.home{
+    position: relative;
+    top: 330px;
+    align-items: center;
+    
+}
+.sobremim{
+   position: relative;
+   top: 1300px;
+
+}
+
+#h11{
+    color: rgba(128, 128, 128, 0.647);
+    letter-spacing: 3px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h21{
+    position: relative;
+    font-size: 40px;
+    position: relative;
+    margin-left: 150px;
+    
+}
+
+#p1{
+    position: relative;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#Skills{ 
+    margin-right: 300px;
+    font-size: 40px;
+}
+
+#main-container {
+    display: flex; /* Alinha os elementos filhos em linha */
+    justify-content: space-between; /* Garante que haja espaço entre os elementos */
+    align-items: flex-start; /* Alinha os itens ao topo */
+  }
+  
+#container1 {
+    width: 60%; /* Ajuste conforme necessário */
+    position: relative;
+    margin-right: 20px; /* Espaço entre os containers */
+}
+
+  #container2 {
+    width: 35%; /* Ajuste conforme necessário */
+    
+    position: relative;
+}
+
+#skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.skill-item {
+    background-color: #237d5d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill-item img {
+    width: 40px; /* Tamanho do ícone */
+    height: 40px;
+    margin-bottom: 10px; /* Espaço entre o ícone e o texto */
+}
+  
+.skill-item span {
+    margin-top: 5px;
+}
+
+#Projetos1{
+    color: rgba(128, 128, 128, 0.647);
+    letter-spacing: 3px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1400px;
+}
+
+#projects-section {
+    text-align: center;
+    color: #fff;
+    
+}
+  
+#projects-title {
+    font-size: 4em; /* Tamanho grande para o título */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px; /* Espaço entre as imagens */
+    justify-items: center;
+    position: relative;
+    top: 1500px;
+    width: 100%;
+}
+  
+.project-item {
+    width: 100%;
+    max-width: 400px; /* Limita o tamanho máximo de cada item */
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    display: block;
+}
+  
+.project-item img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+#contatos{
+    position: relative;
+    top: 1700px;
+    color: rgba(128, 128, 128, 0.647);
+    letter-spacing: 3px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+  #contact-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 20px; /* Espaço entre os ícones */
+    position: relative;
+    top: 1800px;
+  }
+  
+  #contact-icons a {
+    background-color: #800040;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #contact-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+ 
+  
+  
+  
+  
+ 
